@@ -5,7 +5,6 @@
 * {
   width:370px;
   margin:0px;
-  display:block;
   box-sizing: inherit;
 }
 
@@ -46,14 +45,14 @@ body {
 
 #expert-talk {
   font-weight:bold;
-  font-size:25;
+  font-size:25px;
   line-height: 150%;
   padding-left:30px;
   padding-bottom:30px;
 }
 
 #passionate {
-  font-size: 15;
+  font-size: 15px;
   line-height: 150%;
   padding-left:30px;
   padding-right:10px;
@@ -73,7 +72,7 @@ p.dash {
 
 #center-info {
   text-align: center;
-  font-size:30;
+  font-size:30px;
   line-height: 150%;
   font-weight:600;
   padding-bottom:100px;
@@ -181,4 +180,45 @@ hr {
   font-family:'Helvetica',serif;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#light_blue {
+  background: #CAECF8;
+}
+
+ul {
+  list-style-image: url("assets/plus-bullet.png");
+  color: #603820;
+  font-family: 'Courier Bold', Courier, 'Times New Roman', serif;
+  font-size: 16pt;
+  display: inline-block;
+  line-height: 190%;
+  text-align:left;
+}
+
+#faq {
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width:50%;
+  height:50%;
+}
+
+#treehouse {
+  padding-top:80px;
+}
+
+#reg-page .register {
+  position: relative;
+  top: -20px;
+}
+
+#reg-page a{
+  display: inline-block;
+  width: 200px;
+  height: 75px;
+  position: relative;
+  top: -360px;
+  left: 90px;
 }
