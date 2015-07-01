@@ -67,7 +67,7 @@ p.dash {
   padding-bottom:30px;
   margin-right: 30px;
   margin-left: 30px;
-  background-image: url("dash-horizontal.png");
+  background-image: url("assets/dash-horizontal.png");
   background-repeat: repeat-x;
 }
 
@@ -110,7 +110,7 @@ hr {
 }
 
 .wood-bg {
-  background-image: url("wood-bg.png");
+  background-image: url("assets/wood-bg.png");
   background-repeat: repeat-y;
 }
 
@@ -157,10 +157,10 @@ hr {
 .ampm {
   color:white;
   text-align:center;
-  margin-left:auto;
-  margin-right:auto;
   font-size: 15px;
   padding-top:5px;
+  position:relative;
+  right:152px;
 }
 
 .white-title{
