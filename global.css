@@ -114,6 +114,7 @@ hr {
 }
 
 .event-schedule{
+  display:block;
   padding-top:100px;
   margin-left:auto;
   margin-right:auto;
@@ -197,6 +198,7 @@ ul {
 }
 
 #faq {
+  display: block;
   margin-left:auto;
   margin-right:auto;
   padding-top: 50px;
